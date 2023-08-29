@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>دیوار</title>
+  </head>
+  <body class="">
+    <!-- header -->
+    <div class="flex flex-col items-center">
+      <!-- mobile view header -->
+      <header class="lg:hidden w-full px-4 py-3">
+        <div
+          class="bg-[#f5f5f5] px-1 w-full flex justify-between py-[7px] rounded-md"
+        >
+          <!-- city name + location Icon -->
+          <div class="w-1/4 flex">
+            <!-- location Icon -->
+            <img src="./images/LOCATIONNN.svg" class="p-1 ml-1" />
+
+            <!-- city name -->
+            <input
+              class="text-[0.85rem] w-[52%] border-r-slate-400 border-r-2 border-solid h-full flex items-center text-center bg-[#f5f5f5]"
+              type="text"
+              disabled
+              placeholder="تهران"
+            />
+          </div>
+
+          <!-- search bar + search icon-->
+
+          <!-- search bar -->
+          <div class="flex bg-[#f5f5f5]">
+            <input
+              dir="rtl"
+              class="text-[0.85rem] h-full w-full p-1 bg-[#f5f5f5] outline-none"
+              type="search"
+              placeholder="جستجو در همۀ آگهی ها"
+            />
+
+            <!-- search icon -->
+            <img class="m-1 w-[25px]" src="./images/search.svg" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <!-- desktop view header -->
+      <header
+        class="fixed lg:inline hidden w-full h-[64px] bg-red-100"
+      ></header>
+      <!-- container -->
+
+      <div class="lg:hidden no-scrollbar overflow-y-scroll w-full">
+        <div class="">
+          <div
+            class="text-[#0000008f] w-fit flex gap-2 border-y-2 border-[#f5f5f5] p-3"
+          >
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              فروش آپارتمان
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              صندلی و نیمکت
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              وسایل شخصی
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              خدمات
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              استخدام
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              موبایل
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              حیوانات
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              اجاره مسکونی
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              خودروسواری
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              دسته ها
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              فیلترها
+            </div>
+            <div
+              class="text-xs border-2 border-[#f5f5f5] rounded-3xl w-max p-2"
+            >
+              فیلترها
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- container for web mode  -->
+      <div class="flex lg:container justify-center w-full">
+        <!-- main card -->
+        <main class="w-full">
+          <div class="m-3  lg:pt-[calc(300px + 64px)]">
+            <p class="text-[#0000008f] p-2 text-xs text-right">
+              دیوار تهران: انواع آگهی وخدمات درتهران
+            </p>
+          </div>
+          <!-- cards -->
+          <div class="w-full md:grid md:grid-cols-2 ">
+            <!-- card -->
+            <div class="flex border-2 border-[#f5f5f5] rounded-md m-3 p-3">
+              <div class="">
+                <img
+                  class="w-[136px] h-[136px] object-cover rounded-md"
+                  src="./images/AZcT5QOg.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="items-end flex px-2">
+                <img src="./images/Vector(3).svg" alt="" />
+              </div>
+
+              <div class="h-full text-right grow">
+                <div class="">
+                  <h2 class="text-[1rem] font-medium leading-7 h-14">
+                    180مـتـر هـروی خـوش نـقـشـه
+                  </h2>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    ودیعه: ۱,۰۰۰,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    اجاره: ۳۵,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    <span
+                      class="leading-6 text-[0.875rem] text-[#0000008f]"
+                      title="لحظاتی پیش در هروی"
+                      >لحظاتی پیش در هروی</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex border-2 border-[#f5f5f5] rounded-md m-3 p-3">
+              <div class="">
+                <img
+                  class="w-[136px] h-[136px] object-cover rounded-md"
+                  src="./images/AZcT5QOg.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="items-end flex px-2">
+                <img src="./images/Vector(3).svg" alt="" />
+              </div>
+
+              <div class="h-full text-right grow">
+                <div class="">
+                  <h2 class="text-[1rem] font-medium leading-7 h-14">
+                    180مـتـر هـروی خـوش نـقـشـه
+                  </h2>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    ودیعه: ۱,۰۰۰,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    اجاره: ۳۵,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    <span
+                      class="leading-6 text-[0.875rem] text-[#0000008f]"
+                      title="لحظاتی پیش در هروی"
+                      >لحظاتی پیش در هروی</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="flex border-2 border-[#f5f5f5] rounded-md m-3 p-3">
+              <div class="">
+                <img
+                  class="w-[136px] h-[136px] object-cover rounded-md"
+                  src="./images/AZcT5QOg.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="items-end flex px-2">
+                <img src="./images/Vector(3).svg" alt="" />
+              </div>
+
+              <div class="h-full text-right grow">
+                <div class="">
+                  <h2 class="text-[1rem] font-medium leading-7 h-14">
+                    180مـتـر هـروی خـوش نـقـشـه
+                  </h2>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    ودیعه: ۱,۰۰۰,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    اجاره: ۳۵,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    <span
+                      class="leading-6 text-[0.875rem] text-[#0000008f]"
+                      title="لحظاتی پیش در هروی"
+                      >لحظاتی پیش در هروی</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="flex border-2 border-[#f5f5f5] rounded-md m-3 p-3">
+              <div class="">
+                <img
+                  class="w-[136px] h-[136px] object-cover rounded-md"
+                  src="./images/AZcT5QOg.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="items-end flex px-2">
+                <img src="./images/Vector(3).svg" alt="" />
+              </div>
+
+              <div class="h-full text-right grow">
+                <div class="">
+                  <h2 class="text-[1rem] font-medium leading-7 h-14">
+                    180مـتـر هـروی خـوش نـقـشـه
+                  </h2>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    ودیعه: ۱,۰۰۰,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    اجاره: ۳۵,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    <span
+                      class="leading-6 text-[0.875rem] text-[#0000008f]"
+                      title="لحظاتی پیش در هروی"
+                      >لحظاتی پیش در هروی</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="flex border-2 border-[#f5f5f5] rounded-md m-3 p-3">
+              <div class="">
+                <img
+                  class="w-[136px] h-[136px] object-cover rounded-md"
+                  src="./images/AZcT5QOg.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="items-end flex px-2">
+                <img src="./images/Vector(3).svg" alt="" />
+              </div>
+
+              <div class="h-full text-right grow">
+                <div class="">
+                  <h2 class="text-[1rem] font-medium leading-7 h-14">
+                    180مـتـر هـروی خـوش نـقـشـه
+                  </h2>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    ودیعه: ۱,۰۰۰,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    اجاره: ۳۵,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    <span
+                      class="leading-6 text-[0.875rem] text-[#0000008f]"
+                      title="لحظاتی پیش در هروی"
+                      >لحظاتی پیش در هروی</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="flex border-2 border-[#f5f5f5] rounded-md m-3 p-3">
+              <div class="">
+                <img
+                  class="w-[136px] h-[136px] object-cover rounded-md"
+                  src="./images/AZcT5QOg.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="items-end flex px-2">
+                <img src="./images/Vector(3).svg" alt="" />
+              </div>
+
+              <div class="h-full text-right grow">
+                <div class="">
+                  <h2 class="text-[1rem] font-medium leading-7 h-14">
+                    180مـتـر هـروی خـوش نـقـشـه
+                  </h2>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    ودیعه: ۱,۰۰۰,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    اجاره: ۳۵,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    <span
+                      class="leading-6 text-[0.875rem] text-[#0000008f]"
+                      title="لحظاتی پیش در هروی"
+                      >لحظاتی پیش در هروی</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="flex border-2 border-[#f5f5f5] rounded-md m-3 p-3">
+              <div class="">
+                <img
+                  class="w-[136px] h-[136px] object-cover rounded-md"
+                  src="./images/AZcT5QOg.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="items-end flex px-2">
+                <img src="./images/Vector(3).svg" alt="" />
+              </div>
+
+              <div class="h-full text-right grow">
+                <div class="">
+                  <h2 class="text-[1rem] font-medium leading-7 h-14">
+                    180مـتـر هـروی خـوش نـقـشـه
+                  </h2>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    ودیعه: ۱,۰۰۰,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    اجاره: ۳۵,۰۰۰,۰۰۰ تومان
+                  </div>
+                  <div class="leading-6 text-[0.875rem] text-[#0000008f]">
+                    <span
+                      class="leading-6 text-[0.875rem] text-[#0000008f]"
+                      title="لحظاتی پیش در هروی"
+                      >لحظاتی پیش در هروی</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+          
+        </main>
+
+        <!-- <div
+          class="lg:fixed right-0 lg:inline hidden w-fit p-6 h-[480px] bg-red-100"
+        ></div> -->
+      </div>
+    </div>
+    <!-- sticky footer -->
+    <footer
+      class="fixed bottom-0 lg:hidden w-full"
+      style="box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.12)"
+    >
+      <div class="flex md:py-2 gap-10 m-2 justify-around items-center text-[#0000008f]">
+        <div class="md:flex md:flex-row-reverse md:gap-2 "> 
+          <div class="w-[24px] h-[24px]">
+            <img src="./images/mydivar.svg " alt="" />
+          </div>
+          <div class="text-xs w-max mt-2 md:mt-0 ">دیوار من</div>
+        </div>
+
+        <div class="md:flex md:flex-row-reverse md:gap-2 ">
+          <div class="w-[24px] h-[24px]">
+            <img src="./images/chat.svg" alt="" />
+          </div>
+          <div class="text-xs w-max mt-2 md:mt-0">چت</div>
+        </div>
+
+        <div class="md:flex md:flex-row-reverse md:gap-2 ">
+          <div class="w-[24px] h-[24px] text-">
+            <img src="./images/save-ag.svg" alt="" />
+          </div>
+          <div class="text-xs w-max mt-2 md:mt-0">ثبت آگهی</div>
+        </div>
+
+        <div class="md:flex md:flex-row-reverse md:gap-2 ">
+          <div class="w-[24px] h-[24px]">
+            <img src="./images/daste.svg" alt="" />
+          </div>
+          <div class="text-xs w-max mt-2 md:mt-0">دسته ها</div>
+        </div>
+
+        <div class="md:flex md:flex-row-reverse md:gap-2 ">
+          <div class="w-[24px] h-[24px]">
+            <img src="./images/divar.svg" alt="" />
+          </div>
+          <div class="text-xs w-max mt-2 md:mt-0 text-[#a62626]">آگهی ها</div>
+          
+        </div>  
+      </div>
+    </footer>
+  </body>
+</html>
